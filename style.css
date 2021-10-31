@@ -14,13 +14,21 @@ body {
     url("https://images.unsplash.com/photo-1504384308090-c894fdcc538d?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2550&q=80");
 }
 
+/*
+https://codepen.io/dickyal6/pen/rNeRepd
+https://codepen.io/ericmahoney/pen/oNLMOYw
+https://codepen.io/bramus/pen/PobmGme
+*/
+
 .main-container {
   display: flex;
   flex-direction: column;
   padding: 10px;
+  margin: 100px 200px 100px 200px;
 }
 
 .box {
+  overflow: hidden;
   border: 1px orangered solid;
   color: #fff;
   padding: 10px;
